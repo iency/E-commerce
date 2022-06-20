@@ -268,13 +268,12 @@ HIGHLIGHTS
 .highlight_wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    
+    justify-content: space-between;
 }
 
 .highlight {
     padding: 0 24px;
-    width: calc (100% / 3);
+    width: calc(100% / 3);
     display: flex;
     align-items: center;
     flex-direction: column;
